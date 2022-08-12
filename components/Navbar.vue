@@ -22,7 +22,7 @@
         </ul>
 
       </nav>
-    </div> -->
+    </div> --> 
     <div class="h-16 px-8 border-b-2 border-basic-02 flex justify-between items-center">
       <!-- icons for responsive -->
       <div class="icon-resp text-basic-02 hidden">
