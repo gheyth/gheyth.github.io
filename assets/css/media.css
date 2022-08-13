@@ -3,7 +3,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 64px;
+    top: 80px;
     background-color: #fff;
     max-height: 0;
     overflow: hidden;
@@ -58,5 +58,38 @@
     order: -1;
     margin-bottom: 20px;
     width: 8rem;
+  }
+  .all-media div div a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+  }
+}
+@media (max-width:340px){
+  .all-media div{
+    flex-direction: inherit;
+  }
+  .all-media div div{
+    width: 80%;
+  }
+  .all-media div div h1 {
+    font-size:30px;
+    text-align: center;
+  }
+
+  .all-media div div p {
+    text-align: center;
+    font-size:18px;
+  }
+
+  .all-media div img {
+    order: -1;
+    margin-bottom: 20px;
+    width:5rem;
+  }
+  #Why-ghayth h1, #What-Ghayth h1{
+    font-size:40px;
+  }
+  #Why-ghayth p, #What-Ghayth p{
+    font-size: 16px;
   }
 }

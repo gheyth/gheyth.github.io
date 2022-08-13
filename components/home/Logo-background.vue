@@ -33,7 +33,7 @@
       z-index: -1;
     }
   .calc{
-    height: calc(100vh - 64px);
+    height: calc(100vh - 80px);
   }
   .vd{
         filter: brightness(0.3);
