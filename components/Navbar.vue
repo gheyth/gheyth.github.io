@@ -22,11 +22,11 @@
         </ul>
 
       </nav>
-    </div> --> 
+    </div> -->
     <div class="h-20 px-8 border-b-2 border-basic-02 flex justify-between items-center">
       <!-- icons for responsive -->
       <div class="icon-resp text-basic-02 hidden">
-        <i class="fa-solid fa-bars-staggered"></i>
+        <i class="fa-solid fa-bars"></i>
         <i class="fa-solid fa-xmark hidden"></i>
       </div>
       <!-- icons for responsive -->
@@ -54,3 +54,10 @@
     </div>
   </header>
 </template>
+
+
+<style>
+  .list-nav-resp{
+    transition: all 0.2s;
+  }
+</style>

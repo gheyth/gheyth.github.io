@@ -10,7 +10,7 @@
         <p class="text-basic-01 text-2xl mt-3">
           فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ ۖ <br>لَا إِلَٰهَ إِلَّا هُوَ رَبُّ الْعَرْشِ الْكَرِيمِ (116)
         </p>
-        <a class="text-white  text-center inline-block border-2 border-white w-full py-1 mt-5 rounded-md hover:bg-basic-02 hover:border-basic-01 transition-all"
+        <a class="text-white  text-center inline-block border-2 border-white w-full py-1 mt-5 rounded-xl hover:bg-basic-02 hover:border-basic-01 transition-all"
           href="#Content">
           اَلذَّهَاب إِلَى اَلْمُحْتَوَى
         </a>

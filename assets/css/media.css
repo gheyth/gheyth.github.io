@@ -1,3 +1,8 @@
+@media (max-width:1000px){
+  .cards{
+    display: block;
+  }
+}
 @media (max-width:800px) {
   .list-nav-resp{
     position: absolute;
@@ -47,17 +52,17 @@
     order:1;
   }
   .all-media div div h1{
-    font-size: 50px;
+    font-size:42px;
     text-align: center;
   }
   .all-media div div p{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
   }
   .all-media div img{
     order: -1;
     margin-bottom: 20px;
-    width: 8rem;
+    width:124px;
   }
   .all-media div div a:hover{
     background-color: transparent;

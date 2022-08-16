@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LogoBackground />
+    <Intro />
     <WhatGhayth />
     <WhyGhayth />
     <Content />
@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import LogoBackground from '~/components/home/Logo-background.vue'
+import Intro from '~/components/home/Intro.vue'
 import WhatGhayth from '../components/home/What-Ghayth.vue'
 import WhyGhayth from '~/components/home/Why-ghayth.vue'
 import Content from '~/components/home/Content.vue'
 export default {
   components:{
-    LogoBackground,
+    Intro,
     WhatGhayth,
     WhyGhayth,
     Content
