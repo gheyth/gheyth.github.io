@@ -6,7 +6,8 @@
         <Project 
           title="مَشْرُوعٌ أَحَمِدَ"
           info="مَوْسُوعَةُ بَسيطَةُ تَتَنَاوَلُ احاديث الرَّسُولَ وَ سَيْرَتُهُ وَمَوَاقِفُ مِنْ حَيَاتِهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ"
-          img="project-ahmed.png" 
+          img="project-ahmed.png"
+          link="https://gheyth.github.io/ahmed/"
         />
       </div>
     </div>
