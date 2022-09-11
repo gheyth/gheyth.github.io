@@ -1,5 +1,5 @@
 <template>
-  <div class="card rounded-2xl px-3 py-3 mt-28 w-72">
+  <div class="card rounded-2xl px-3 py-3 mt-28 w-72 bg-white relative">
     <div class="flex items-center justify-center py-5 border rounded-xl h-60">
       <img class="rounded-xl" :src="require('~/assets/img/project/' + img)">
     </div>

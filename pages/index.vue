@@ -1,9 +1,11 @@
 <template>
   <div>
     <Intro />
-    <WhatGhayth />
-    <WhyGhayth />
-    <Content />
+    <section class="for-background">
+      <WhatGhayth />
+      <WhyGhayth />
+      <Content />
+    </section>
   </div>
 </template>
 
@@ -21,3 +23,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  .for-background{
+    background-image: url('~assets/img/section-bg.jpg');
+  }
+</style>
