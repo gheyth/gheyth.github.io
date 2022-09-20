@@ -11,12 +11,26 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
       
       { name:'theme-color', content:'#94682A' },
       { name: 'msapplication-navbutton-color', content: '#94682A' },
-      { name:'apple-mobile-web-app-status-bar-style', content:'#94682A' }
+      { name: 'apple-mobile-web-app-status-bar-style', content: '#94682A' },
+      
+      // Primary Meta Tags
+      { name: 'description', content: 'غيث هو موقع ألكتروني يحتضن عدة مشاريع رقمية تخدم الإسلام' },
+      //Open Graph / Facebook
+      { property: 'og:type', content: 'website' },
+      { property:'og:url', content:'https://gheyth.github.io/'},
+      { property:'og:title', content:'حَاضِنَةُ غَيْثٍ'},
+      { property:'og:description', content:'غيث هو موقع ألكتروني يحتضن عدة مشاريع رقمية تخدم الإسلام'},
+      { property:'og:image', content:'assets/img/meta.png'},
+      //Twitter
+      { property:'twitter:card', content:'summary_large_image'},
+      { property:'twitter:url', content:'https://gheyth.github.io/'},
+      { property:'twitter:title', content:'حَاضِنَةُ غَيْثٍ'},
+      { property:'twitter:description', content:'غيث هو موقع ألكتروني يحتضن عدة مشاريع رقمية تخدم الإسلام'},
+      { property:'twitter:image', content:'assets/img/meta.png'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
