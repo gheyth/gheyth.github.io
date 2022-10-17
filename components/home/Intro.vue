@@ -1,5 +1,5 @@
 <template>
-  <section class="all-media calc max w-full m-auto relative">
+  <section class="all-media calc max w-full m-auto relative z-10">
     <video loop muted autoplay poster="img/videoframe.jpg" class="w-full vd calc">
       <!-- thanks: https://islamarchive.cc/main : for video -->
       <source src="~assets/intro_home.mp4" type="video/mp4">

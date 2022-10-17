@@ -33,7 +33,8 @@ export default {
       { property:'twitter:image', content:'assets/img/meta.png'},
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/sidraweb/flaticon-uicons@V1.0.0/uicons.css' }
     ],
     script: [
       { src: 'https://kit.fontawesome.com/1a4bb73a43.js', crossorigin: 'anonymous' },

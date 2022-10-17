@@ -18,7 +18,7 @@
     transition: all 0.5s;
   }
     .list-nav-resp-open{
-      max-height: 266px !important;
+      max-height: 352px !important;
       border-bottom: solid 2px #94682A;
     }
   .list-nav {

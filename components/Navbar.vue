@@ -34,16 +34,17 @@
         <div class="list-nav-resp">
           <ul class="list-nav flex">
             <li class="text-basic-01 ml-2">
-              <a class="py-4 px-6 pr-0 text-lg transition-all font-semibold hover:text-basic-02"
-                href="#What-Ghayth">ماهو
-                غيث</a>
+              <NuxtLink class="py-4 px-6 pr-0 text-lg transition-all font-semibold hover:text-basic-02" to="/#What-Ghayth">ماهو غيث</NuxtLink>
             </li>
             <li class="text-basic-01 ml-2 ">
-              <a class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" href="#Why-ghayth">لماذا
-                غيث</a>
+              <NuxtLink class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" to="/#Why-ghayth">لماذا
+                غيث</NuxtLink>
             </li>
             <li class="text-basic-01 ml-2">
-              <a class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" href="#Content">المحتوى</a>
+              <NuxtLink class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" to="/#Content">المحتوى</NuxtLink>
+            </li>
+            <li class="text-basic-01 ml-2">
+              <NuxtLink class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" to="/about">حول المشروع</NuxtLink>
             </li>
           </ul>
         </div>

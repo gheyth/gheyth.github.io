@@ -17,3 +17,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  main{
+    background-image: url('~assets/img/section-bg.jpg');
+  }
+</style>
