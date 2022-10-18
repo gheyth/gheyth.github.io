@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full max m-auto">
+  <header class="w-full max m-auto sticky top-0 bg-white z-20">
     <!-- <div class="h-7 px-8 bg-basic-02 flex">
       <nav class="flex justify-between items-center	w-full text-white">
         <ul class="flex">
@@ -30,9 +30,12 @@
         <i class="fa-solid fa-xmark hidden"></i>
       </div>
       <!-- icons for responsive -->
-      <nav class="">
+      <nav>
         <div class="list-nav-resp">
           <ul class="list-nav flex">
+            <li class="text-basic-01 ml-2">
+              <NuxtLink class="py-4 px-6 pr-0 text-lg transition-all font-semibold hover:text-basic-02" to="/">الرئيسية</NuxtLink>
+            </li>
             <li class="text-basic-01 ml-2">
               <NuxtLink class="py-4 px-6 pr-0 text-lg transition-all font-semibold hover:text-basic-02" to="/#What-Ghayth">ماهو غيث</NuxtLink>
             </li>
