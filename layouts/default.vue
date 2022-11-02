@@ -21,5 +21,9 @@ export default {
 <style>
   main{
     background-image: url('~assets/img/section-bg.jpg');
+  } 
+  /* exact link will show the primary color for only the exact matching link */
+  a.nuxt-link-exact-active {
+    color: #94682A;
   }
 </style>
