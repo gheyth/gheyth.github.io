@@ -6,7 +6,7 @@
     <div class="mt-4 text-basic-02">
       <h1 class="font-black	text-2xl">{{title}}</h1>
       <p class="text-1xl mt-2 font-semibold	">{{info}}</p>
-      <a target="_blank" class="inline-block w-full bg-basic-02 text-white font-semibold text-center rounded-xl mt-2 py-1" :href=link>الدخول</a>
+      <a target="_blank" class="inline-block w-full bg-basic-02 text-white font-semibold text-center rounded-xl mt-2 py-1" :href=link>{{btn}}</a>
     </div>
   </div>
 </template>
@@ -17,7 +17,8 @@ export default {
     title:String,
     info: String,
     img: String,
-    link: String
+    link: String,
+    btn:String
   }
 }
 </script>
