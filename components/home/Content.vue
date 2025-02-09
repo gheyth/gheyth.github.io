@@ -10,13 +10,13 @@
           link="https://gheyth.github.io/al-furqan/"
           btn="تصفح"
         />
-        <!-- <Project 
+        <Project 
           title="مَشْرُوعٌ أَحْمَدْ"
           info= "هُوَ مَوْسُوعَةُ بَسيطَةُ تَتَنَاوَلُ عِدَّةُ ابواب لِعِدَّةِ أَحَادِيثِ أَخْلَاَقِيَّةٌ وَ دُعَاءٌ وَ سِيَرَةٌ الرَّسُولِ صَلَّى اللهُ عَلَيْهِ وَ سُلَّمٌ" 
           img="project-ahmed.png"
-          link="#"
-          btn="قريبا"
-        /> -->
+          link="https://gheyth.github.io/ahmed/"
+          btn="تصفح"
+        />
       </div>
     </div>
   </section>
